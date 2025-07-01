@@ -1,69 +1,75 @@
-# React + TypeScript + Vite
+# FISGADOS - Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+FISGADOS é um aplicativo web divertido, educativo e espiritual, inspirado no Duolingo, que ensina sobre a Bíblia de forma interativa. Este é o frontend do projeto, construído com **React**, **Vite**, **Tailwind CSS**, com suporte a **tema claro/escuro**, **internacionalização (i18n)** e 100% **PWA** (Progressive Web App).
 
-Currently, two official plugins are available:
+## 🌐 Tecnologias Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- React
+- Vite
+- Tailwind CSS
+- React Router DOM
+- React-i18next
+- Context API (para tema e idioma)
+- PWA com Vite Plugin
+- TypeScript
 
-## Expanding the ESLint configuration
+## 🚀 Começando
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+### Pré-requisitos
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+- Node.js v18+ recomendado
+- npm ou yarn
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+### Instalação
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+# Instale as dependências
+npm install
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### Rodando localmente
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+npm run dev
 ```
+
+O app estará disponível em: [http://localhost:5173](http://localhost:5173)
+
+## 🌗 Tema Claro e Escuro
+
+O tema pode ser alternado entre claro e escuro através do ícone no canto superior direito da navbar.
+
+## 🌍 Internacionalização
+
+O app atualmente suporta:
+
+- 🇧🇷 Português
+- 🇺🇸 Inglês
+
+Você pode alternar o idioma no canto superior direito da navbar.
+
+## 📱 PWA
+
+Este projeto é uma Progressive Web App e pode ser instalado em dispositivos móveis ou desktops. Basta clicar em “Instalar app” no navegador ou usar o menu de opções no Chrome.
+
+## 🗂 Estrutura do Projeto
+
+```
+src/
+├── assets/            # Imagens e mascote
+├── components/        # Componentes reutilizáveis como Navbar, Footer, Hero, Sections etc.
+├── context/           # Contexto de tema e idioma
+├── i18n/              # Configuração de internacionalização
+├── pages/             # Páginas como Home, Login, Cadastro etc.
+├── App.tsx            # Estrutura de rotas
+├── main.tsx           # Renderização do React
+└── index.css          # Tailwind + estilos globais
+```
+
+## 📄 Licença
+
+Este projeto está sob a licença MIT. Sinta-se livre para usar, contribuir e adaptar.
+
+---
+
+Feito com 💜 por [Sua Equipe ou Nome]
