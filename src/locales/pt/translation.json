@@ -27,5 +27,15 @@
   },
   "perfil": {
     "title": "Seu Perfil"
-  }
+  },
+  "register": {
+  "title": "Crie sua conta",
+  "name": "Nome completo",
+  "email": "E-mail",
+  "password": "Senha",
+  "createAccount": "Registrar",
+  "haveAccount": "Já tem conta?",
+  "login": "Entrar",
+  "google": "Entrar com Google"
+}
 }
