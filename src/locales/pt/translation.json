@@ -1,0 +1,31 @@
+{
+  "title": "O jeito gratuito, divertido e eficaz de aprender a Bíblia!",
+  "description": "Desenvolva seu conhecimento espiritual com atividades envolventes, desafios e muita diversão.",
+  "start": "Comece agora",
+  "acess_login": "Já tenho uma conta",
+  "footer.text": "© 2025 Fisgados. Todos os direitos reservados.",
+  "section1": {
+    "title": "grátis. divertido. eficaz.",
+    "description": "Aprenda sobre a Bíblia de forma dinâmica e envolvente, com desafios, interatividade e uma pitada de diversão."
+  },
+  "section2": {
+    "title": "Porque estudar com o Fisgados",
+    "description": "Combinamos espiritualidade e tecnologia para criar uma experiência única de aprendizado, ajudando você a crescer na fé de maneira prática e envolvente."
+  },
+  "home": {
+    "title": "Bem-vindo ao Fisgados!",
+    "description": "Aprenda sobre a Bíblia de forma divertida."
+  },
+  "login": {
+    "title": "Entrar"
+  },
+  "cadastro": {
+    "title": "Criar Conta"
+  },
+  "estudo": {
+    "title": "Seus Estudos"
+  },
+  "perfil": {
+    "title": "Seu Perfil"
+  }
+}

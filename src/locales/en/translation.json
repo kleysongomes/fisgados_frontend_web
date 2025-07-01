@@ -1,0 +1,31 @@
+{
+  "title": "The free, fun and effective way to learn the Bible!",
+  "description": "Develop your spiritual knowledge with engaging activities, challenges and lots of fun.",
+  "start": "Start now",
+  "acess_login": "I already have an account",
+  "footer.text": "© 2025 Fisgados. All rights reserved.",
+  "section1": {
+    "title": "free. fun. effective.",
+    "description": "Learn about the Bible in a dynamic and engaging way, with challenges, interactivity, and a touch of fun."
+  },
+  "section2": {
+    "title": "Why study with Fisgados",
+    "description": "We combine spirituality and technology to create a unique learning experience, helping you grow in faith in a practical and engaging way."
+  },
+  "home": {
+    "title": "Welcome to Fisgados!",
+    "description": "Learn about the Bible in a fun way."
+  },
+  "login": {
+    "title": "Login"
+  },
+  "cadastro": {
+    "title": "Create Account"
+  },
+  "estudo": {
+    "title": "Your Studies"
+  },
+  "perfil": {
+    "title": "Your Profile"
+  }
+}
