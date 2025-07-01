@@ -68,8 +68,8 @@ src/
 
 ## 📄 Licença
 
-Este projeto está sob a licença MIT. Sinta-se livre para usar, contribuir e adaptar.
+Este projeto está sob a licença MIT. 
 
 ---
 
-Feito com 💜 por [Sua Equipe ou Nome]
+Feito com 💜 
